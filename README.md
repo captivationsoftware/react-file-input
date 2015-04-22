@@ -2,7 +2,9 @@ react-file-input
 ============
 [Demo](https://captivationsoftware.github.io/react-file-input)
 
-react-file-input allows you to style your file inputs just like other input types (e.g. text). Useful for creating uniformity between form controls, regardless of type.
+Styling native HTML file inputs can be a pretty big pain, and to make matters worse, the browser default look-and-feel is probably at odds with your app's design. This problem is what react-file-input aims to solve.
+
+Once integrated, react-file-input quickly eliminates the headaches associated with forms requiring file upload.
 
 ## Installation
 ```sh
@@ -10,7 +12,7 @@ npm install react-file-upload
 ```
 
 ## Code Example
-Usage is pretty simple: just use react-file-input instead of <input type="file" />!
+Usage is pretty simple: just use react-file-input instead of `<input type="file" />`!
 
 app.jsx
 ```js
