@@ -1,7 +1,7 @@
 {
   "name": "react-file-input",
-  "version": "0.0.0",
-  "description": "Simple <input type=\"file\" /> component for React",
+  "version": "0.0.1",
+  "description": "File input component for React",
   "main": "./lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,9 +11,10 @@
     "url": "https://github.com/captivationsoftware/react-file-input"
   },
   "keywords": [
-    "React",
-    "Upload",
-    "File Input"
+    "react",
+    "upload",
+    "file",
+    "input"
   ],
   "author": "Captivation Software",
   "contributors": [],
