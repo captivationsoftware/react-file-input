@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<title><FileInput /> Example</title>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/babel/5.1.10/browser.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.1/react.min.js"></script>
+		<script type="text/javascript">
+			// Manually bundling so override require and module
+			window.require = function() { return window.React; };
+			window.module = {};
+		</script>
+		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div id="example" className="container"></div>
+		<script type="text/javascript" src="https://rawgit.com/captivationsoftware/react-file-input/master/lib/index.js"></script>
+		<script type="text/babel">
+			class Example extends React.Component {
+				handleChange(e) {
+					console.log('File changed!', e);
+				}
+				render() {
+					return (
+						<div className="row">
+							<form className="col-xs-offset-3 col-xs-6">
+								<legend>&lt;FileInput /&gt; demo</legend>
+								<div className="form-group">
+									<input className="form-control" type="text" placeholder="Name" />
+								</div>
+								<div className="form-group">
+									<textarea className="form-control" placeholder="message"></textarea>
+								</div>
+								<div className="form-group">
+									<FileInput className="form-control" placeholder="Attachment" onChange={this.handleChange.bind(this)}/>
+								</div>
+								<button type="button" className="btn pull-right">Send</button>
+							</form>
+						</div>
+					);
+				}
+			}
+
+			React.render(<Example />, document.getElementById('example'));
+		</script>
+	</body>
+</html>
