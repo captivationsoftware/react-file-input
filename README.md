@@ -10,8 +10,7 @@ npm install react-file-upload
 ```
 
 ## Code Example
-
-First, you will want to wrap the element you want to be sticky with <Sticky></Sticky> tags. When the element is scrolled past the point where it would start to move off screen, the stickiness is activated.
+Usage is pretty simple: just use react-file-input instead of <input type="file" />!
 
 app.jsx
 ```js
@@ -26,13 +25,15 @@ var Form = React.createClass({
   render: function() {
     return (
       <form>
-        <FileInput name="myFile" onChange={this.handleChange} />
+        <FileInput name="myFile" placeholder="My File" className="inputClass" onChange={this.handleChange} />
       </form>
     );
   },
 });
 
 ```
+
+The list of valid props can be found below.
 
 ### Props
 

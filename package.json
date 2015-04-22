@@ -1,7 +1,7 @@
 {
   "name": "react-file-input",
-  "version": "0.1.0",
-  "description": "File input component for React",
+  "version": "0.1.1",
+  "description": "<FileInput /> component for React",
   "main": "./lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
