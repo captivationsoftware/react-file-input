@@ -8,7 +8,7 @@ Once integrated, react-file-input quickly eliminates the headaches associated wi
 
 ## Installation
 ```sh
-npm install react-file-upload
+npm install react-file-input
 ```
 
 ## Code Example
