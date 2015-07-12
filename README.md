@@ -39,7 +39,7 @@ The list of valid props can be found below.
 
 ### Props
 
-#### name, className, placeholder, onChange
+#### name, accept, className, placeholder, onChange
 Behave just like standard react-style attributes on input controls.
 
 ## Contributors
