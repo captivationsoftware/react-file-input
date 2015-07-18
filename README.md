@@ -27,7 +27,11 @@ var Form = React.createClass({
   render: function() {
     return (
       <form>
-        <FileInput name="myImage" accept=".png,.gif" placeholder="My File" className="inputClass" onChange={this.handleChange} />
+        <FileInput name="myImage" 
+                   accept=".png,.gif" 
+                   placeholder="My Image" 
+                   className="inputClass" 
+                   onChange={this.handleChange} />
       </form>
     );
   },
