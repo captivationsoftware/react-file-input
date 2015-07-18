@@ -1,6 +1,6 @@
 {
   "name": "react-file-input",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "<FileInput /> component for React",
   "main": "./lib",
   "scripts": {
