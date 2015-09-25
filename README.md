@@ -20,17 +20,17 @@ var React = require('react'),
   FileInput = require('react-file-input');
 
 var Form = React.createClass({
-  handleChange: function(file) {
-    console.log(file, 'selected!');
+  handleChange: function(event) {
+    console.log('Selected file:', event.target.files[0]);
   },
 
   render: function() {
     return (
       <form>
-        <FileInput name="myImage" 
-                   accept=".png,.gif" 
-                   placeholder="My Image" 
-                   className="inputClass" 
+        <FileInput name="myImage"
+                   accept=".png,.gif"
+                   placeholder="My Image"
+                   className="inputClass"
                    onChange={this.handleChange} />
       </form>
     );
