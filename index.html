@@ -17,7 +17,7 @@
 		<script type="text/babel">
 			class Example extends React.Component {
 				handleChange(e) {
-					console.log('File changed!', e);
+					console.log('User selected this file:', e.target.files[0]);
 				}
 				render() {
 					return (
