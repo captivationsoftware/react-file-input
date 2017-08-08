@@ -1,6 +1,6 @@
 {
   "name": "react-file-input",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Simple file input component for React",
   "main": "./lib",
   "scripts": {
@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/captivationsoftware/react-file-input",
   "peerDependencies": {
-    "react": "0.x"
+    "react": "0.x || 15.x"
   }
 }
