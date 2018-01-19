@@ -26,5 +26,8 @@
   "homepage": "https://github.com/captivationsoftware/react-file-input",
   "peerDependencies": {
     "react": "0.x"
+  },
+  "dependencies": {
+    "react": "^16.2.0"
   }
 }
